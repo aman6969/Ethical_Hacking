@@ -1,0 +1,85 @@
+***************seeker tool*****************
+
+git clone https://github.com/TechnicalHeadquarter/seeker.git
+cd seeker/
+chmod 777 install.sh
+./install.sh
+
+********************************************************
+
+usage: seeker.py [-h] [-s SUBDOMAIN]
+
+optional arguments:
+  -h, --help                              show this help message and exit
+  -s SUBDOMAIN, --subdomain Subdomain 	  Provide Subdomain for Serveo URL ( Optional )
+  -k KML, --kml KML                       Provide KML Filename ( Optional )
+  -t TUNNEL, --tunnel TUNNEL              Specify Tunnel Mode [manual]
+
+# Example
+
+# SERVEO 
+########
+python3 seeker.py
+
+# NGROK ETC.
+############
+
+# In First Terminal Start seeker in Manual mode like this
+python3 seeker.py -t manual
+
+# In Second Terminal Start Ngrok or any other tunnel service on port 8080
+./ngrok http 8080
+
+#-----------------------------------#
+
+# Subdomain
+########### 
+python3 seeker.py --subdomain google
+python3 seeker.py --tunnel manual --subdomain zomato
+
+#-----------------------------------#
+
+## Known Problems
+
+* Services like Serveo and Ngrok are banned in some countries such as Russia etc., so if it's banned in your country you may not get a URL, if not then first READ CLOSED ISSUES, if your problem is not listed, create a new issue.
+..........................................
+You can use any website you want, just keep the javascript and php intact, don't change any variables, if you really want to change variables then carefully analyse both javascript and php and you will be able to use your own variables, this is a great idea i will give it a try, it will be something like SET
+
+Websites templates are under /seeker/template
+
+/opt/seeker/template# ls
+nearyou sample.kml
+
+copy nearyou as twitter (new template name as you want)
+
+/opt/seeker/template# cp -r nearyou/ /opt/seeker/template/twitter
+/opt/seeker/template# ls
+nearyou sample.kml twitter
+
+navigate inside the twitter folder
+
+/opt/seeker/template# cd twitter/
+/opt/seeker/template/twitter# ls
+css index.html js php
+
+and edit the index.html as you want
+/opt/seeker/template/twitter# geany index.html
+
+finally edit the seeker.py script
+
+#result = 'template/nearyou/php/result.txt'
+#info = 'template/nearyou/php/info.txt'
+#site = 'nearyou'
+
+result = 'template/twitter/php/result.txt'
+info = 'template/twitter/php/info.txt'
+site = 'twitter'
+
+#php_rqst = requests.get('http://127.0.0.1:8080/nearyou/index.html')
+php_rqst = requests.get('http://127.0.0.1:8080/twitter/index.html'
+
+python3 seeker.py -t default -s twitter
+
+or
+
+python3 seeker.py -t default
