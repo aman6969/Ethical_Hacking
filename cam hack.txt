@@ -1,0 +1,158 @@
+Mode Of Execution:
+apt-get install python3
+
+apt-get install git
+
+git clone https://github.com/AngelSecurityTeam/Cam-Hackers
+
+cd Cam-Hackers
+
+pip install -r requirements.txt
+
+python3 cam-hackers.py
+
+(root㉿kali)-[/home/amansinghrajput/Cam-Hackers]
+└─# python3 cam-hackers.py
+
+ ██████╗ █████╗ ███╗   ███╗      ██╗  ██╗ █████╗  ██████╗██╗  ██╗███████╗██████╗ ███████╗
+██╔════╝██╔══██╗████╗ ████║      ██║  ██║██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗██╔════╝
+██║     ███████║██╔████╔██║█████╗███████║███████║██║     █████╔╝ █████╗  ██████╔╝███████╗
+██║     ██╔══██║██║╚██╔╝██║╚════╝██╔══██║██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗╚════██║
+╚██████╗██║  ██║██║ ╚═╝ ██║      ██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║███████║
+ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝      ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
+                                                                        ANGELSECURITYTEAM 
+1) United States                31) Mexico                61) Moldova
+2) Japan                        32) Finland               62) Nicaragua
+3) Italy                        33) China                 63) Malta
+4) Korea                        34) Chile                 64) Trinidad And Tobago
+5) France                       35) South Africa          65) Soudi Arabia
+6) Germany                      36) Slovakia              66) Croatia
+7) Taiwan                       37) Hungary               67) Cyprus
+8) Russian Federation           38) Ireland               68) Pakistan
+9) United Kingdom               39) Egypt                 69) United Arab Emirates
+10) Netherlands                 40) Thailand              70) Kazakhstan
+11) Czech Republic              41) Ukraine               71) Kuwait
+12) Turkey                      42) Serbia                72) Venezuela
+13) Austria                     43) Hong Kong             73) Georgia
+14) Switzerland                 44) Greece                74) Montenegro
+15) Spain                       45) Portugal              75) El Salvador
+16) Canada                      46) Latvia                76) Luxembourg
+17) Sweden                      47) Singapore             77) Curacao
+18) Israel                      48) Iceland               78) Puerto Rico                                       
+19) Iran                        49) Malaysia              79) Costa Rica                                        
+20) Poland                      50) Colombia              80) Belarus                                           
+21) India                       51) Tunisia               81) Albania                                           
+22) Norway                      52) Estonia               82) Liechtenstein                                     
+23) Romania                     53) Dominican Republic    83) Bosnia And Herzegovia                             
+24) Viet Nam                    54) Sloveania             84) Paraguay                                          
+25) Belgium                     55) Ecuador               85) Philippines                                       
+26) Brazil                      56) Lithuania             86) Faroe Islands                                     
+27) Bulgaria                    57) Palestinian           87) Guatemala                                         
+28) Indonesia                   58) New Zealand           88) Nepal                                             
+29) Denmark                     59) Bangladeh             89) Peru                                              
+30) Argentina                   60) Panama                90) Uruguay                                           
+91) Extra                       92) Andorra               93) Antigua And Barbuda                               
+94) Armenia                     95) Angola                96) Australia                                         
+97) Aruba                       98) Azerbaijan            99) Barbados                                          
+100) Bonaire                    101) Bahamas              102) Botswana                                         
+103) Congo                      104) Ivory Coast          105) Algeria                                          
+106) Fiji                       107) Gabon                108) Guernsey                                         
+109) Greenland                  110) Guadeloupe           111) Guam                                             
+112) Guyana                     113) Honduras             114) Jersey                                           
+115) Jamaica                    116) Jordan               117) Kenya                                            
+118) Cambodia                   119) Saint Kitts          120) Cayman Islands                                   
+121) Laos                       122) Lebanon              123) Sri Lanka                                        
+124) Morocco                    125) Madagascar           126) Macedonia                                        
+127) Mongolia                   128) Macao                129) Martinique                                       
+130) Mauritius                  131) Namibia              132) New Caledonia                                    
+133) Nigeria                    134) Qatar                135) Reunion                                          
+136) Sudan                      137) Senegal              138) Suriname                                         
+139) Sao Tome And Principe      140) Syria                141) Tanzania                                         
+142) Uganda                     143) Uzbekistan           144) Saint Vincent And The Grenadines                 
+145) Benin                                                                                                      
+                                                                                                                
+                                                                                                                
+                                                                                                                
+                                                                                                                
+OPTIONS : 21                                                                                                    
+ http://82.134.72.195:80                                                                                        
+ http://88.84.52.67:80                                                                                          
+ http://158.39.49.147:80                                                                                        
+ http://77.223.177.194:80                                                                                       
+ http://109.247.172.8:8080                                                                                      
+ http://81.167.247.10:8081                                                                                      
+ http://212.251.252.17:88                                                                                       
+ http://85.165.216.9:8080                                                                                       
+ http://88.91.15.9:60001                                                                                        
+ http://31.45.31.195:8080                                                                                       
+ http://85.164.246.136:82                                                                                       
+ http://85.164.246.218:8080                                                                                     
+ http://88.89.162.44:80                                                                                         
+ http://85.166.241.13:60001                                                                                     
+ http://84.49.203.69:1024                                                                                       
+ http://185.78.69.56:60001                                                                                      
+ http://185.149.19.52:1024                                                                                      
+ http://77.110.246.1:80                                                                                         
+ http://51.174.228.36:80                                                                                        
+ http://89.162.14.87:80                                                                                         
+ http://185.125.168.74:80                                                                                       
+ http://81.167.187.53:80                                                                                        
+ http://85.166.246.105:80                                                                                       
+ http://81.167.67.93:8080                                                                                       
+ http://84.52.241.87:8080                                                                                       
+ http://109.247.176.59:80                                                                                       
+ http://158.39.70.155:80                                                                                        
+ http://92.221.152.201:80                                                                                       
+ http://79.161.235.219:80                                                                                       
+ http://92.220.135.12:8080                                                                                      
+ http://62.92.246.134:1024                                                                                      
+ http://109.109.82.48:80                                                                                        
+ http://81.166.233.221:8080                                                                                     
+ http://81.166.233.221:9000                                                                                     
+ http://89.9.11.146:80                                                                                          
+ http://45.67.8.214:81                                                                                          
+ http://152.65.56.203:8080                                                                                      
+ http://79.160.121.82:80                                                                                        
+ http://213.161.240.154:8080                                                                                    
+ http://109.247.15.178:6001                                                                                     
+ http://193.215.174.62:80                                                                                       
+ http://213.184.196.185:80                                                                                      
+ http://86.62.189.146:80                                                                                        
+ http://79.161.89.143:8001                                                                                      
+ http://94.246.12.136:8080                                                                                      
+ http://89.151.198.218:89                                                                                       
+ http://91.126.1.201:60001                                                                                      
+ http://178.164.91.45:8080                                                                                      
+ http://193.214.235.26:8000                                                                                     
+ http://193.214.235.26:8001                                                                                     
+ http://92.221.150.202:80                                                                                       
+ http://85.93.226.157:8081                                                                                      
+ http://85.93.226.157:8082                                                                                      
+ http://85.93.226.157:8083                                                                                      
+ http://92.220.68.140:81                                                                                        
+ http://109.247.68.134:81                                                                                       
+ http://51.174.114.102:8090                                                                                     
+ http://92.220.173.101:80                                                                                       
+ http://62.92.105.6:8081                                                                                        
+ http://62.92.105.6:8080                                                                                        
+ http://81.167.110.218:84                                                                                       
+ http://79.161.89.143:8000                                                                                      
+ http://79.160.180.85:8080                                                                                      
+ http://91.126.14.51:80                                                                                         
+ http://79.160.61.45:8080                                                                                       
+ http://51.175.208.20:8080                                                                                      
+ http://193.214.230.10:8082                                                                                     
+ http://78.26.42.186:84                                                                                         
+ http://109.247.68.134:80                                                                                       
+ http://79.160.45.179:8083                                                                                      
+ http://79.160.45.179:8082                                                                                      
+ http://79.160.45.179:8084                                                                                      
+ http://92.220.126.164:50001                                                                                    
+ http://158.39.114.144:8080                                                                                     
+ http://94.246.12.136:80                                                                                        
+ http://185.211.73.105:81                                                                                       
+ http://84.205.37.19:8090                                                                                       
+ http://51.174.33.10:8080                                                                                       
+ http://83.243.191.198:8080                                                                                     
+ http://92.221.251.178:80                                                                                       
+ http://213.236.250.78:80                                                                                       
