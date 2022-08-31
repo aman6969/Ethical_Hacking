@@ -1,0 +1,53 @@
+Requirements
+sudo apt update -y
+
+sudo apt install php nodejs npm adb scrcpy wget unzip apktool jq -y
+And if needed
+sudo apt install msfconsole -y 
+Required
+ADB {Android SDK}
+
+USB Cable
+
+Android Emulator {Nethunter/Termux} Root
+
+Or Computer
+Installation For Linux
+git clone https://github.com/tegal1337/CiLocks
+
+cd CiLocks
+
+chmod +x cilocks
+
+sudo bash cilocks 
+
+or sudo ./cilocks
+
+   _______ __               __
+  / ____(_) /   ____  _____/ /_______
+ / /   / / /   / __ \/ ___/ //_/ ___/
+/ /___/ / /___/ /_/ / /__/ ,< (__  )
+\____/_/_____/\____/\___/_/|_/____/v2.1
+
+   Crack Interface LockScreen
+       Android/IOS Hacking
+      LoliC0d3 - Tegal1337
+
+  1.Update
+  2.Brute Pin 4 Digit
+  3.Brute Pin 6 Digit
+  4.Brute LockScreen Using Wordlist
+  5.Bypass LockScreen {Antiguard} Not Support All OS Version
+  6.Root Android {Supersu} Not Support All OS Version
+  7.Jump To Adb Toolkit
+  8.Reset Data
+  9.Remove LockScreen {Root}
+  10.Jump To Metasploit
+  11.Control Android {Scrcpy}
+  12.Phone Info
+  13.IP Logger {Over Internet}
+  14.Get WebCam {Over Internet}
+  15.FireStore Vulnerability
+  99.Exit
+  
+senpai@tegalsec:~# 

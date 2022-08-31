@@ -1,0 +1,38 @@
+  _______  _______  _______  _______          _________ _______          
+ (  ____ \(  ___  )(       )(  ____ )|\     /|\__   __/(  ____ \|\     /|
+ | (    \/| (   ) || () () || (    )|| )   ( |   ) (   | (    \/| )   ( |
+ | |      | (___) || || || || (____)|| (___) |   | |   | (_____ | (___) |
+ | |      |  ___  || |(_)| ||  _____)|  ___  |   | |   (_____  )|  ___  |
+ | |      | (   ) || |   | || (      | (   ) |   | |         ) || (   ) |
+ | (____/\| )   ( || )   ( || )      | )   ( |___) (___/\____) || )   ( |
+ (_______/|/     \||/     \||/       |/     \|\_______/\_______)|/     \|
+  CamPhish Ver 1.5  
+  www.techchip.net | youtube.com/techchipnet  
+
+
+-----Choose tunnel server----
+
+[01] Ngrok
+[02] Serveo.net
+
+[+] Choose a Port Forwarding option: [Default is 1] 1
+
+-----Choose a template----
+
+[01] Festival Wishing
+[02] Live Youtube TV
+[03] Online Meeting
+
+[+] Choose a template: [Default is 1] 3
+[+] Downloading Ngrok...
+[+] Enter your valid ngrok authtoken: 2
+[+] Starting php server...
+[+] Starting ngrok server...
+[!] Direct link is not generating, check following possible reason  
+[*]  Ngrok authtoken is not valid
+[*]  If you are using android, turn hotspot on
+[*]  Ngrok is already running, run this command killall ngrok             
+[*]  Check your internet connection                                       
+                                                                          
+┌──(root㉿kali)-[/home/amansinghrajput/CamPhish]
+└─# 
