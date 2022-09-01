@@ -1,0 +1,122 @@
+Run Wifite
+git clone https://github.com/derv82/wifite2.git
+cd wifite2
+sudo ./Wifite.py
+
+┌
+──(root㉿kali)-[/home/amansinghrajput/wifite2]
+└─#             
+sudo ./Wifite.py
+   .               .    
+ .´  ·  .     .  ·  `.  wifite 2.2.5
+ :  :  :  (¯)  :  :  :  automated wireless auditor
+ `.  ·  ` /¯\ ´  ·  .´  https://github.com/derv82/wifite2
+   `     /¯¯¯\     ´    
+
+ [!] Warning: Recommended app pyrit was not found. install @ https://github.com/JPaulMora/Pyrit/wiki                                                                                          
+ [!] Warning: Recommended app hcxpcaptool was not found. install @ https://github.com/ZerBea/hcxtools                                                                                         
+ [!] Conflicting processes: NetworkManager (PID 633), wpa_supplicant (PID 1372)
+ [!] If you have problems: kill -9 PID or re-run wifite with --kill)                           
+
+    Interface   PHY   Driver              Chipset                                              
+-----------------------------------------------------------------------
+ 1. wlan0       phy1  88XXau              TP-Link Archer T2U PLUS [RTL8821AU]
+
+ [+] enabling monitor mode on wlan0... failed
+failed
+
+ [!] Error: Cannot find None with Mode:Monitor
+                                                                                               
+ [!] Full stack trace below                                                                    
+                                                                                               
+ [!]    Traceback (most recent call last):                                                     
+ [!]    File "/home/amansinghrajput/wifite2/wifite/__main__.py", line 93, in entry_point
+ [!]        wifite.start()
+ [!]    File "/home/amansinghrajput/wifite2/wifite/__main__.py", line 53, in start             
+ [!]        Configuration.get_monitor_mode_interface()
+ [!]    File "/home/amansinghrajput/wifite2/wifite/config.py", line 132, in get_monitor_mode_interface
+ [!]        cls.interface = Airmon.ask()
+ [!]    File "/home/amansinghrajput/wifite2/wifite/tools/airmon.py", line 319, in ask          
+ [!]        iface.interface = Airmon.start(iface)
+ [!]    File "/home/amansinghrajput/wifite2/wifite/tools/airmon.py", line 195, in start        
+ [!]        raise Exception('Cannot find %s with Mode:Monitor' % enabled_iface)
+ [!]  Exception: Cannot find None with Mode:Monitor                                            
+                                                                                               
+ [!] Exiting                                                                                   
+
+                                                                                               
+┌──(root㉿kali)-[/home/amansinghrajput/wifite2]
+└─#             
+sudo ./Wifite.py
+   .               .    
+ .´  ·  .     .  ·  `.  wifite 2.2.5
+ :  :  :  (¯)  :  :  :  automated wireless auditor
+ `.  ·  ` /¯\ ´  ·  .´  https://github.com/derv82/wifite2
+   `     /¯¯¯\     ´    
+
+ [!] Warning: Recommended app pyrit was not found. install @ https://github.com/JPaulMora/Pyrit/wiki                                                                                          
+ [!] Warning: Recommended app hcxpcaptool was not found. install @ https://github.com/ZerBea/hcxtools                                                                                         
+ [!] Conflicting processes: NetworkManager (PID 633), wpa_supplicant (PID 1372)
+ [!] If you have problems: kill -9 PID or re-run wifite with --kill)                           
+
+ [+] Using wlan0 already in monitor mode                                                       
+
+   NUM                      ESSID   CH  ENCR  POWER  WPS?  CLIENT                              
+   ---  -------------------------  ---  ----  -----  ----  ------
+     1                     V2045     1   WPA   67db    no    1                                 
+     2                      mi0      1   WPA   54db    no    1                                 
+     3       (9C:1C:12:2A:0B:A8)    40   WPA   34db    no                                      
+     4                    Saurav     1   WPA   32db   yes                                      
+     5       (72:FF:7B:C7:C8:57)    36   WPA   14db    no                                      
+     6              Ushanet Deco    36   WPA   14db   yes                                      
+ [+] Scanning. Found 6 target(s), 2 client(s). Ctrl+C when ready                               
+   NUM                      ESSID   CH  ENCR  POWER  WPS?  CLIENT
+   ---  -------------------------  ---  ----  -----  ----  ------
+     1                     V2045     1   WPA   67db    no    1                                 
+     2                      mi0      1   WPA   54db    no    1                                 
+     3       (6E:FF:7B:C7:C8:56)     6   WPA   39db    no                                      
+     4       (9C:1C:12:2A:0B:A8)    40   WPA   34db    no                                      
+     5                    Saurav     1   WPA   32db   yes                                      
+     6       (72:FF:7B:C7:C8:57)    36   WPA   14db    no                                      
+     7              Ushanet Deco    36   WPA   14db   yes                                      
+ [+] Scanning. Found 7 target(s), 2 client(s). Ctrl+C when ready                               
+   NUM                      ESSID   CH  ENCR  POWER  WPS?  CLIENT
+   ---  -------------------------  ---  ----  -----  ----  ------
+     1                     V2045     1   WPA   67db    no    1                                 
+     2                      mi0      1   WPA   54db    no    1                                 
+     3       (6E:FF:7B:C7:C8:56)     6   WPA   39db    no                                      
+     4       (9C:1C:12:2A:0B:A8)    40   WPA   34db    no                                      
+     5                    Saurav     1   WPA   32db   yes                                      
+     6       (72:FF:7B:C7:C8:57)    36   WPA   14db    no                                      
+     7              Ushanet Deco    36   WPA   14db   yes                                      
+ [+] Scanning. Found 7 target(s), 2 client(s). Ctrl+C when ready                               
+   NUM                      ESSID   CH  ENCR  POWER  WPS?  CLIENT
+   ---  -------------------------  ---  ----  -----  ----  ------
+     1                     V2045     1   WPA   67db    no    1                                 
+     2                      mi0      1   WPA   54db    no    1   
+
+
++] select target(s) (1-7) separated by commas, dashes or all: 1                              
+
+ [+] (1/1) Starting attacks against E2:82:86:34:48:C5 (V2045)
+ [!] Skipping PMKID attack, missing required tools: hcxpcaptool
+ [+] V2045 (70db) WPA Handshake capture: Waiting for target to appear...                       
+ [!] Error: Target did not appear after 60 seconds, stopping
+                                                                                               
+ [!] Full stack trace below                                                                    
+                                                                                               
+ [!]    Traceback (most recent call last):                                                     
+ [!]    File "/home/amansinghrajput/wifite2/wifite/attack/all.py", line 86, in attack_single
+ [!]        result = attack.run()
+ [!]    File "/home/amansinghrajput/wifite2/wifite/attack/wpa.py", line 42, in run             
+ [!]        handshake = self.capture_handshake()
+ [!]    File "/home/amansinghrajput/wifite2/wifite/attack/wpa.py", line 94, in capture_handshake
+ [!]        airodump_target = self.wait_for_target(airodump)
+ [!]    File "/home/amansinghrajput/wifite2/wifite/model/attack.py", line 24, in wait_for_target
+ [!]        raise Exception('Target did not appear after %d seconds, stopping' % Attack.target_wait)                                                                                          
+ [!]  Exception: Target did not appear after 60 seconds, stopping                              
+ [+] Finished attacking 1 target(s), exiting                                                   
+                                                                                               
+┌──(root㉿kali)-[/home/amansinghrajput/wifite2]
+└─# 
+                             
